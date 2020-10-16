@@ -1,0 +1,33 @@
+;
+;	File 'topol_Ion2.itp' was generated
+;	By user: yb87625 (1071)
+;	On host: login-0-0.um.edu.mo
+;	At date: Thu Sep  3 10:47:14 2020
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                :-) GROMACS - gmx pdb2gmx, 2020-UNCHECKED (-:
+;	
+;	Executable:   /share/apps/gromacs/2020/gcc/6.5.0/bin/gmx
+;	Data prefix:  /share/apps/gromacs/2020/gcc/6.5.0
+;	Working dir:  /home/yb87625/Ben_p53/10/I195S
+;	Command line:
+;	  gmx pdb2gmx -f I195S_fix.pdb
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Ion2                3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue 220 ZN  rtp ZN   q +2.0
+     1         Zn    220     ZN     ZN      1          2       65.4   ; qtot 2
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Ion2.itp"
+#endif
+

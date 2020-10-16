@@ -1,0 +1,50 @@
+# This file was created Fri Oct 16 15:11:32 2020
+# Created by:
+#                  :-) GROMACS - gmx covar, 2020-UNCHECKED (-:
+# 
+# Executable:   /share/apps/gromacs/2020-ompi-4.0.0/gcc/6.5.0/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020-ompi-4.0.0/gcc/6.5.0
+# Working dir:  /home/yb87625/Ben_p53/10/I195S
+# Command line:
+#   gmx_mpi covar -f traj_comp.xtc -n index.ndx
+# gmx covar is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "Eigenvalues of the covariance matrix"
+@    xaxis  label "Eigenvector index"
+@    yaxis  label "(nm\S2\N)"
+@TYPE xy
+         1 0.00401709
+         2 0.00124114
+         3 0.000905532
+         4 0.000693851
+         5 0.000410483
+         6 0.000191835
+         7 0.000128265
+         8 0.000109074
+         9 9.16295e-05
+        10 5.17818e-05
+        11 4.80128e-05
+        12 4.09816e-05
+        13 3.44899e-05
+        14 2.79558e-05
+        15 2.35151e-05
+        16 2.12954e-05
+        17 2.08284e-05
+        18 1.43486e-05
+        19 1.20705e-05
+        20 1.04766e-05
+        21 5.50118e-06
+        22 4.81798e-06
+        23 3.71219e-06
+        24 3.22143e-06
+        25 2.8719e-06
+        26 7.55125e-07
+        27 3.42295e-07
+        28 1.34907e-10
+        29 1.16142e-10
+        30 -2.23235e-11
+        31 -2.93697e-11
+        32 -1.59017e-10
+        33 -3.65583e-10

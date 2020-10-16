@@ -1,0 +1,21 @@
+Covariance analysis log, written Fri Oct 16 15:11:32 2020
+
+Program: covar
+Working directory: /home/yb87625/Ben_p53/10/I195S
+
+Read 1334 frames from traj_comp.xtc (time 0 to 39990 ps)
+Read reference structure for fit from topol.tpr
+Read index groups from index.ndx
+
+Analysis group is 'r_102' (11 atoms)
+Fit group is 'r_102' (11 atoms)
+Analysis is non-mass weighted
+Fit is non-mass weighted
+Diagonalized the 33x33 covariance matrix
+Trace of the covariance matrix before diagonalizing: 0.00811588
+Trace of the covariance matrix after diagonalizing: 0.00811588
+
+Wrote 33 eigenvalues to eigenval.xvg
+Wrote reference structure to eigenvec.trr
+Wrote average structure to average.pdb and eigenvec.trr
+Wrote eigenvectors 1 to 33 to eigenvec.trr
